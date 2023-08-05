@@ -1,0 +1,27 @@
+/* Add your custom styling here */
+.loan-details-container {
+    margin: 20px;
+    padding: 20px;
+    
+  }
+
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .loan-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .table-row {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    text-align: left;
+  }
+  

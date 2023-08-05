@@ -1,0 +1,35 @@
+.form-data{
+   
+    width: 450px;
+    height: 500px;
+   margin: 0 auto;
+    justify-content: space-around;
+    padding: 30px
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 2rem;
+}
+.title { 
+    text-align: center;
+}
+input,
+
+textarea {
+ width: 380px;
+  font-size: 22px;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  margin: 20px 0 20px 0;
+  height: 50px;
+  font-size: 16px
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

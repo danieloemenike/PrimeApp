@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,100&family=Ysabeau+Office:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans',Helvetica, Arial;
+  line-height: 1.5;
+  
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+background: #00000023;
+  background: linear-gradient(  460deg, rgb(5, 5, 5),#140214fd);
+
+
+ 
+ 
+}
+*, :root, body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+a {
+
+  color: #d3c7d09c;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #fdfdfd;
+}
+
+a.active {
+  color:   #f3f3f3;
+}
+
+body {
+  margin: 0;
+  
+}
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background: linear-gradient(to right, #f73cd886, #0452b880);
+  cursor: pointer;
+  transition: border-color 0.25s;
+ 
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+button:disabled{
+  cursor: not-allowed;
+  background-color: #1d1919;
+  background: #1d1919;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #afb5bb;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -1,0 +1,45 @@
+/* Add your custom styling here */
+.loan-list-container {
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  .loan-list-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  } 
+  
+  .loan-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  .loan-box{
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  
+ 
+  .loan-details {
+    overflow-x: auto;
+  }
+  .response-message {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
